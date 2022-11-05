@@ -57,7 +57,7 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "WebSPA:build:production"
+              "browserTarget": "WebSPA:build:development"
             }
           }
         },

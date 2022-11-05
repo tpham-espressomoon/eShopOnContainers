@@ -50,7 +50,7 @@ public class Startup
         // Setup where the compiled version of our spa application will be, when in production. 
         services.AddSpaStaticFiles(configuration =>
         {
-            configuration.RootPath = "wwwroot";
+            configuration.RootPath = "wwwroot"; // $"ClientApp/dist";
         });
     }
 
